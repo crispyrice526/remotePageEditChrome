@@ -1,4 +1,4 @@
-var jsonFileUrl = "https://brawny-melodic-slayer.glitch.me/script.js" //ADD JSON FILE URL HERE
+var jsonFileUrl = "https://raw.githubusercontent.com/crispyrice526/remotePageEditChrome/refs/heads/main/example.json" //ADD JSON FILE URL HERE
 
 var getIns = async () => {
   try {
