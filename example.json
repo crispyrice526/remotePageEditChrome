@@ -1,9 +1,20 @@
 {  
 "instructions": [
     {
-      "selector": ".balls",
+      "selector": ".title",
       "action": "txt",
-      "value": "Hello World!"
-    }
-  ]
+      "value": "Changed your title!!"
+    },
+    {
+      "selector": ".videoFrame",
+      "action": "append",
+      "value": "<div class=\"videoFrame\" src=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">",
+    },
+    {
+      "selector": "#app-content",
+      "action": "txt",
+      "value": "Changed your text using a childPath!",
+      "childPath" : [4,1,0,2]
+    },
+]
 }
