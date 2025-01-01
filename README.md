@@ -2,6 +2,7 @@ This chrome extension allows the controller of the JSON the extension pulls down
  
 
 Setup:  
+        
         1. Go to chrome://extensions
         
         2. Make sure developer mode is enabled. (Top Right Corner)
@@ -15,6 +16,7 @@ Setup:
         5. Use your JSON file to remotely edit websites!
 
 Instructions Format   (View examples in example.json)
+
         1. `selector`: Treat selector as the document.querySelector("") function. Add the entire indentifier for selector. 
                 For example if I wanted to a select a class I would use `"selector": ".exElement"` or for id, `"selector": "#exElement"`.
 
@@ -36,7 +38,8 @@ Instructions Format   (View examples in example.json)
                 </selectedElement>
                 `
 
-Host JSON file  
+Host JSON File:
+
         1. Make your own github repo.
         2. Create a new `JSON` file in the repo and add your `JSON` instructions.
         3. Navigate to viewing the file and select the `view raw` option.
