@@ -14,7 +14,7 @@
 
         5. Use your JSON file to remotely edit websites!
 
-** Instructions Format **
+** Instructions Format ** (View examples in example.json)
         1. `selector`: Treat selector as the document.querySelector("") function. Add the entire indentifier for selector. 
                 For example if I wanted to a select a class I would use `"selector": ".exElement"` or for id, `"selector": "#exElement"`.
 
