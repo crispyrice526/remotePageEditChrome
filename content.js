@@ -23,6 +23,10 @@ var main = async () => {
   ins.instructions.forEach(item => 
     {
     var element = document.querySelector(item.selector)
+    if(!element){
+      console.error("Error: No Element Found For "+item.selector)
+      return;
+    }
     if(item.childPath) element = getChildEl(element,item.childPath)
     if(item.action == "txt") element.textContent = item.value;
     if(item.action == "append"){
