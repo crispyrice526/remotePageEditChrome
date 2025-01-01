@@ -1,7 +1,7 @@
-**This chrome extension allows the controller of the JSON the extension pulls down, to inject HTML and manipulate into any chrome site the extension is enabled on.
-**
+This chrome extension allows the controller of the JSON the extension pulls down, to inject HTML and manipulate into any chrome site the extension is enabled on.
+ 
 
-** Setup: **
+Setup:  
         1. Go to chrome://extensions
         
         2. Make sure developer mode is enabled. (Top Right Corner)
@@ -14,7 +14,7 @@
 
         5. Use your JSON file to remotely edit websites!
 
-** Instructions Format ** (View examples in example.json)
+Instructions Format   (View examples in example.json)
         1. `selector`: Treat selector as the document.querySelector("") function. Add the entire indentifier for selector. 
                 For example if I wanted to a select a class I would use `"selector": ".exElement"` or for id, `"selector": "#exElement"`.
 
@@ -36,7 +36,7 @@
                 </selectedElement>
                 `
 
-** Host JSON file **
+Host JSON file  
         1. Make your own github repo.
         2. Create a new `JSON` file in the repo and add your `JSON` instructions.
         3. Navigate to viewing the file and select the `view raw` option.
